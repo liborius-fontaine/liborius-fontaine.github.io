@@ -1,29 +1,80 @@
-EXPLORE BÉNIN — VERSION FINALE
+🇧🇯 Explore Bénin
 
-CONTENU
-Explore-Benin-final/
+À la découverte du patrimoine, de la culture et des destinations du Bénin.
+
+Explore Bénin est un site web consacré à la découverte touristique et culturelle du Bénin. Il permet aux visiteurs d'explorer différentes destinations, de découvrir des images et des récits, de sauvegarder leurs lieux préférés et de tester leurs connaissances grâce à un quiz interactif.
+
+🌐 Visiter le site : https://liborius-fontaine.github.io/
+
+✨ Fonctionnalités principales
+
+- Recherche et filtres : rechercher et filtrer les destinations.
+- Favoris : sauvegarder ses destinations préférées grâce à "localStorage".
+- Galerie interactive : explorer 26 photos avec filtres, recherche, agrandissement, descriptions et récits historiques et culturels.
+- Sources documentaires : accéder à des références complémentaires depuis la galerie.
+- Navigation dans la galerie : passer d'une photo à l'autre avec les flèches.
+- Quiz interactif : répondre à un questionnaire de 5 questions.
+- Vidéos : accéder directement aux vidéos hébergées sur YouTube et Facebook.
+- Menu mobile : navigation adaptée aux petits écrans.
+- Animations : effets d'apparition pour rendre la navigation plus dynamique.
+
+🛠️ Technologies utilisées
+
+- HTML5 — structure des pages.
+- CSS3 — mise en page, design et animations.
+- JavaScript — fonctionnalités interactives et manipulation du contenu.
+- LocalStorage — sauvegarde des favoris dans le navigateur.
+- Git et GitHub — gestion des versions et hébergement du projet avec GitHub Pages.
+
+📁 Organisation du projet
+
+.
 ├── index.html
-├── css/style.css
-├── js/ (animations, search, favorites, navigation, quiz, gallery)
-└── assets/images/   (27 photos utilisées + dossier "reserve" avec 7 photos non utilisées)
+├── README.md
+├── css/
+│   └── style.css
+├── js/
+│   ├── animations.js
+│   ├── search.js
+│   ├── favorites.js
+│   ├── navigation.js
+│   ├── quiz.js
+│   └── gallery.js
+└── assets/
+    └── images/
+        └── reserve/
 
-OUVRIR LE SITE
-Ouvre le dossier dans Visual Studio Code et lance index.html avec Live Server (ou double-clic sur index.html).
-Internet est nécessaire pour les polices Google et pour ouvrir les vidéos hébergées sur YouTube/Facebook. Les aperçus vidéo et les photos du site sont des fichiers locaux.
+Le dossier "assets/images/" contient les images utilisées par le site. Le sous-dossier "reserve/" conserve sept photos supplémentaires qui ne sont pas actuellement intégrées.
 
-PUBLIER (Git en ligne de commande)
+🚀 Lancer le projet en local
+
+1. Cloner le dépôt :
+
+git clone https://github.com/liborius-fontaine/liborius-fontaine.github.io.git
+
+2. Ouvrir le dossier dans Visual Studio Code.
+3. Lancer "index.html" avec l'extension Live Server, ou ouvrir directement le fichier dans un navigateur.
+
+Remarque : une connexion Internet est nécessaire pour charger les polices Google et accéder aux vidéos hébergées sur YouTube et Facebook. Les photos et les aperçus vidéo du site sont stockés localement.
+
+📤 Publier les modifications
+
+Depuis le dossier du projet, exécuter :
+
 git add .
-git commit -m "Version finale Explore Bénin"
+git commit -m "Update Explore Benin website"
 git push origin main
 
-FONCTIONNALITÉS (pour la soutenance)
-- Recherche et filtres des destinations (search.js)
-- Favoris enregistrés avec LocalStorage (favorites.js)
-- Galerie de 26 photos : filtres, recherche, fenêtre d'agrandissement avec description et récit historique/culturel pour chaque photo, liens vers des sources de référence et navigation par flèches (gallery.js)
-- Quiz de 5 questions (quiz.js)
-- Vidéos : les aperçus ouvrent directement les vidéos sur YouTube ou Facebook (pas de lecteur intégré).
-- Menu mobile (navigation.js), animations d'apparition (animations.js)
+Le site est publié avec GitHub Pages à l'adresse :
 
-PHOTOS
-Les 9 photos récemment ajoutées ont été rangées dans assets/images/ et intégrées à la galerie : monument des morts, Présidence du Bénin, Afoké, Amazone sous le ciel, océan, arène d'Ouidah, Zangbéto, Novotel et Sofitel. Le dossier reserve/ contient 7 photos non utilisées : pour en afficher une, déplace-la dans assets/images/ et ajoute sa carte dans index.html.
-Crédits : voir la note en pied de page ; à compléter si tu retrouves les auteurs.
+https://liborius-fontaine.github.io/
+
+📸 Images et crédits
+
+La galerie présente notamment des photographies du monument des morts, de la Présidence du Bénin, d'Afoké, de l'Amazone sous le ciel, de l'océan, de l'arène d'Ouidah, des Zangbéto, du Novotel et du Sofitel.
+
+Les crédits photographiques sont indiqués dans la note en pied de page du site. Les auteurs restent à compléter lorsque leurs informations seront disponibles.
+
+---
+
+Explore Bénin — Découvrir le Bénin autrement. 🇧🇯
