@@ -77,4 +77,4 @@ Les crédits photographiques sont indiqués dans la note en pied de page du site
 
 ---
 
-Explore Bénin — Découvrir le Bénin autrement. 🇧🇯
+Explore Bénin — Découvrir le Bénin autrement.
